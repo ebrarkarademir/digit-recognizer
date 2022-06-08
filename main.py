@@ -17,7 +17,7 @@ MODEL = keras.models.load_model("models/digit_predicter_cnn")
 EVENT = pygame.USEREVENT + 1
 
 FPS = 120
-pygame.display.set_caption("draw_digit")
+pygame.display.set_caption("draw_digit_")
 
 def capture():
     pygame.image.save(WIN,"imgs/digit_img.jpg")
